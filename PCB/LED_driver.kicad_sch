@@ -963,7 +963,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 142d50f7-48ed-47d3-9223-564fe6a6e4d6)
   )
-  (text "5m 5050 LED Strip expected to draw max ~6A\n	(.24W * 60 LEDs * 12V = 5A)\n	( will in practice be lower due to R of copper in LED strip)"
+  (text "5m 5050 LED Strip expected to draw max ~6A\nMath: \n	P = VI, I_{total} = (Num_{LEDs}/m) * length(m)\n	(.24W * 60 LEDs/m * 5m)/12V = 6A\n	(But, will be lower irl due to R of copper in LED strip)"
     (at 25.781 98.806 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5fb3d9c1-17e3-4f00-8035-1dc597af39f4)
