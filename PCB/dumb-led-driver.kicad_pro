@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.11,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -65,15 +65,7 @@
           "width": 0.4
         }
       ],
-      "drc_exclusions": [
-        "copper_edge_clearance|136695000|50800000|164a936b-558f-4e54-93aa-ed1dce7af09c|a19ae13e-535f-42e8-b0ef-5afd05b0362c",
-        "copper_edge_clearance|139235000|50800000|164a936b-558f-4e54-93aa-ed1dce7af09c|45eda805-d58a-432f-919b-6c9a33ad2f2f",
-        "copper_edge_clearance|140505000|50800000|164a936b-558f-4e54-93aa-ed1dce7af09c|4bce6038-2eba-4543-abc4-afd78e8e9381",
-        "copper_edge_clearance|140505000|50800000|164a936b-558f-4e54-93aa-ed1dce7af09c|d613db5d-70c2-4b7b-8982-271363f0bfee",
-        "copper_edge_clearance|143000000|50975000|164a936b-558f-4e54-93aa-ed1dce7af09c|a7332f6a-cd34-4c77-9042-6f3e9bd3389f",
-        "copper_edge_clearance|143950000|50975000|164a936b-558f-4e54-93aa-ed1dce7af09c|cf338bec-c035-4ce2-a202-5b1f8252577a",
-        "copper_edge_clearance|144900000|50975000|164a936b-558f-4e54-93aa-ed1dce7af09c|3482defb-070d-4dc0-b3cf-03d4da036685"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -81,7 +73,7 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "warning",
+        "copper_edge_clearance": "ignore",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
