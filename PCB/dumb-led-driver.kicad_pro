@@ -425,7 +425,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "warning",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -437,7 +437,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "projectlib"
+    ]
   },
   "meta": {
     "filename": "dumb-led-driver.kicad_pro",
