@@ -65,7 +65,16 @@
           "width": 0.4
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_overlap|141269048|68362343|98fc082b-bd63-42e7-9460-22831da4ef7d|01e268aa-c090-4c1c-8d54-dd5598022634",
+        "silk_overlap|142554761|68076629|98fc082b-bd63-42e7-9460-22831da4ef7d|369feb26-9202-4613-a123-b19fdc083dfa",
+        "silk_overlap|143469048|68412343|be1dadec-afaa-4301-9175-703f14167eef|0211ec6b-a07e-4459-97a3-e6eebbcf2ec1",
+        "silk_overlap|144730952|68531391|be1dadec-afaa-4301-9175-703f14167eef|a7bf6dc8-29e6-44e2-b58d-ff4912c7a3af",
+        "text_height|139650000|68350000|559efe11-29b1-4d5f-8e89-ba3776c63000|00000000-0000-0000-0000-000000000000",
+        "text_height|141900000|68350000|98fc082b-bd63-42e7-9460-22831da4ef7d|00000000-0000-0000-0000-000000000000",
+        "text_height|144100000|68400000|be1dadec-afaa-4301-9175-703f14167eef|00000000-0000-0000-0000-000000000000",
+        "text_height|147400000|58300000|c1d74293-43fe-482d-b7ba-eed5873539a1|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -436,13 +445,15 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "jmux-footprints"
+    ],
     "pinned_symbol_libs": [
       "projectlib"
     ]
   },
   "meta": {
-    "filename": "dumb-led-driver.kicad_pro",
+    "filename": "iot_pwm_leddriver.kicad_pro",
     "version": 1
   },
   "net_settings": {
