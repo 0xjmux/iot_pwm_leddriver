@@ -1,11 +1,11 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "All Layers",
-    "auto_track_width": true,
+    "active_layer_preset": "",
+    "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -19,7 +19,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -61,14 +61,13 @@
       34,
       35,
       36,
-      39,
       40
     ],
-    "visible_layers": "fffffff_ffffffff",
+    "visible_layers": "fffffff_fffffffd",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "dumb-led-driver.kicad_prl",
+    "filename": "iot_pwm_leddriver.kicad_prl",
     "version": 3
   },
   "project": {

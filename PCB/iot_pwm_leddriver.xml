@@ -1,0 +1,1382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Jacob\Documents\GitHub\iot_pwm_leddriver\PCB\iot_pwm_leddriver.kicad_sch</source>
+    <date>1/8/2024 8:04:02 AM</date>
+    <tool>Eeschema 7.0.9</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>LED Strip Driver for 12V 5050 Strips</title>
+        <company/>
+        <rev>v1.0</rev>
+        <date>2023-11-25</date>
+        <source>iot_pwm_leddriver.kicad_sch</source>
+        <comment number="1" value="jacobbokor.com"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/LED Driver/" tstamps="/906d9b01-c5b2-4615-86e8-3c8294737d59/">
+      <title_block>
+        <title>LED Strip Driver for 12V 5050 Strips</title>
+        <company/>
+        <rev>v1.0</rev>
+        <date>2023-11-25</date>
+        <source>LED_driver.kicad_sch</source>
+        <comment number="1" value="jacobbokor.com"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Power_and_board/" tstamps="/ff2d7abe-3ed9-4cf8-a089-c3975f855094/">
+      <title_block>
+        <title>LED Strip Driver for 12V 5050 Strips</title>
+        <company/>
+        <rev>v1.0</rev>
+        <date>2023-11-25</date>
+        <source>Power_and_board.kicad_sch</source>
+        <comment number="1" value="jacobbokor.com"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C15850</field>
+        <field name="Vendor">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM21BR61C106KE15L_C77075.html</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value=""/>
+      <property name="Vendor" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM21BR61C106KE15L_C77075.html"/>
+      <property name="LCSC" value="C15850"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="iot_pwm_leddriver.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3bd6142-53bc-4d72-9178-3322774b8963</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>PWR</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C84256</field>
+        <field name="Vendor">https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NCD1206B1_C130717.html</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Vendor" value="https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NCD1206B1_C130717.html"/>
+      <property name="LCSC" value="C84256"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="iot_pwm_leddriver.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eed7f305-b359-4135-84e4-e8e646d79560</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>STAT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C84256</field>
+        <field name="Vendor">https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NCD1206B1_C130717.html</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Vendor" value="https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-NCD1206B1_C130717.html"/>
+      <property name="LCSC" value="C84256"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="iot_pwm_leddriver.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>303e9bf0-88ae-4274-99d8-c86bf77988c8</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>12V PWR</value>
+      <footprint>Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal</footprint>
+      <datasheet>https://so.szlcsc.com/global.html?c=&amp;k=C194407</datasheet>
+      <fields>
+        <field name="LCSC">C194407</field>
+        <field name="Vendor">https://www.lcsc.com/product-detail/AC-span-style-background-color-ff0-DC-span-span-style-background-color-ff0-Power-span-Connectors_GANGYUAN-DC-470-2-1GP_C194407.html</field>
+      </fields>
+      <libsource lib="dc_jack_lib" part="DC-470-2_1GP" description=""/>
+      <property name="LCSC" value="C194407"/>
+      <property name="Vendor" value="https://www.lcsc.com/product-detail/AC-span-style-background-color-ff0-DC-span-span-style-background-color-ff0-Power-span-Connectors_GANGYUAN-DC-470-2-1GP_C194407.html"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="iot_pwm_leddriver.kicad_sch"/>
+      <property name="ki_keywords" value="C194407"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6b7ba00e-b507-47f0-b3e9-7733740e560a</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="Vendor">https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_FOJAN-FRQ0805F1002TS_C5159708.html</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Vendor" value="https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_FOJAN-FRQ0805F1002TS_C5159708.html"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="iot_pwm_leddriver.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1a25bf1-8c94-4116-b79d-3cb5b1c126fe</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="Vendor">https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_FOJAN-FRQ0805F1002TS_C5159708.html</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Vendor" value="https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_FOJAN-FRQ0805F1002TS_C5159708.html"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="iot_pwm_leddriver.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>949be70d-fdcd-460c-a323-8e84df31cbdd</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="Vendor">https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_FOJAN-FRQ0805F1002TS_C5159708.html</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Vendor" value="https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_FOJAN-FRQ0805F1002TS_C5159708.html"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="iot_pwm_leddriver.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99c6dfb5-6ef2-47ce-b4f9-c0fc151afddb</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="Vendor">https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_FOJAN-FRQ0805F1002TS_C5159708.html</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Vendor" value="https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_FOJAN-FRQ0805F1002TS_C5159708.html"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="iot_pwm_leddriver.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eafe729d-7467-4003-9240-b8b5346bf112</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C17414</field>
+        <field name="Vendor">https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_FOJAN-FRQ0805F1002TS_C5159708.html</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Vendor" value="https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_FOJAN-FRQ0805F1002TS_C5159708.html"/>
+      <property name="LCSC" value="C17414"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="iot_pwm_leddriver.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>671ee866-aea8-4d21-8ec3-f0bda22d0dbd</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Description">125mW Thick Film Resistors ±100ppm/℃ ±1% 1kΩ 0805 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC"> C17513 </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Vendor" value=""/>
+      <property name="LCSC" value=" C17513 "/>
+      <property name="Description" value="125mW Thick Film Resistors ±100ppm/℃ ±1% 1kΩ 0805 Chip Resistor - Surface Mount ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="iot_pwm_leddriver.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3da8561-526a-4afd-bfb0-42872750d115</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Description">125mW Thick Film Resistors ±100ppm/℃ ±1% 1kΩ 0805 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC"> C17513 </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Vendor" value=""/>
+      <property name="LCSC" value=" C17513 "/>
+      <property name="Description" value="125mW Thick Film Resistors ±100ppm/℃ ±1% 1kΩ 0805 Chip Resistor - Surface Mount ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="iot_pwm_leddriver.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9f1b59d-5c2c-4c93-8475-e9e951abb244</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>RESET</value>
+      <footprint>Button_Switch_SMD:SW_SPST_TL3342</footprint>
+      <fields>
+        <field name="LCSC">C318884</field>
+        <field name="Vendor">https://www.lcsc.com/product-detail/Tactile-Switches_G-Switch-GT-TC060A-H025-L1_C5117870.html</field>
+      </fields>
+      <libsource lib="C5117870_lib" part="GT-TC060A-H025-L1" description=""/>
+      <property name="LCSC" value="C318884"/>
+      <property name="Vendor" value="https://www.lcsc.com/product-detail/Tactile-Switches_G-Switch-GT-TC060A-H025-L1_C5117870.html"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="iot_pwm_leddriver.kicad_sch"/>
+      <property name="ki_keywords" value="C5117870"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>781dd9d1-c75c-4710-938a-1bdb1541048a</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>FLASH</value>
+      <footprint>Button_Switch_SMD:SW_SPST_TL3342</footprint>
+      <fields>
+        <field name="LCSC">C318884</field>
+        <field name="Vendor">https://www.lcsc.com/product-detail/Tactile-Switches_G-Switch-GT-TC060A-H025-L1_C5117870.html</field>
+      </fields>
+      <libsource lib="C5117870_lib" part="GT-TC060A-H025-L1" description=""/>
+      <property name="LCSC" value="C318884"/>
+      <property name="Vendor" value="https://www.lcsc.com/product-detail/Tactile-Switches_G-Switch-GT-TC060A-H025-L1_C5117870.html"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="iot_pwm_leddriver.kicad_sch"/>
+      <property name="ki_keywords" value="C5117870"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1177879-192b-4818-b9af-80cef6e4e90a</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ESP-12F</value>
+      <footprint>RF_Module:ESP-12E</footprint>
+      <datasheet>http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf</datasheet>
+      <fields>
+        <field name="LCSC"> C82891 </field>
+      </fields>
+      <libsource lib="RF_Module" part="ESP-12F" description="802.11 b/g/n Wi-Fi Module"/>
+      <property name="LCSC" value=" C82891 "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="iot_pwm_leddriver.kicad_sch"/>
+      <property name="ki_description" value="802.11 b/g/n Wi-Fi Module"/>
+      <property name="ki_keywords" value="802.11 Wi-Fi"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da60eae1-b10c-4f7a-885f-b202ef97529c</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C15850</field>
+        <field name="Vendor">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM21BR61C106KE15L_C77075.html</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value=""/>
+      <property name="Vendor" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM21BR61C106KE15L_C77075.html"/>
+      <property name="LCSC" value="C15850"/>
+      <property name="Sheetname" value="LED Driver"/>
+      <property name="Sheetfile" value="LED_driver.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/LED Driver/" tstamps="/906d9b01-c5b2-4615-86e8-3c8294737d59/"/>
+      <tstamps>59b0f5ff-0407-48c7-a5d2-017a1eb0053b</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C15850</field>
+        <field name="Vendor">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM21BR61C106KE15L_C77075.html</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value=""/>
+      <property name="Vendor" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM21BR61C106KE15L_C77075.html"/>
+      <property name="LCSC" value="C15850"/>
+      <property name="Sheetname" value="LED Driver"/>
+      <property name="Sheetfile" value="LED_driver.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/LED Driver/" tstamps="/906d9b01-c5b2-4615-86e8-3c8294737d59/"/>
+      <tstamps>10a6b726-ae10-418d-9969-d2caa3ac7f48</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C15850</field>
+        <field name="Vendor">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM21BR61C106KE15L_C77075.html</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value=""/>
+      <property name="Vendor" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM21BR61C106KE15L_C77075.html"/>
+      <property name="LCSC" value="C15850"/>
+      <property name="Sheetname" value="LED Driver"/>
+      <property name="Sheetfile" value="LED_driver.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/LED Driver/" tstamps="/906d9b01-c5b2-4615-86e8-3c8294737d59/"/>
+      <tstamps>0d52e3c7-e3b5-4bac-8dd8-a1c4b60ba54c</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C15850</field>
+        <field name="Vendor">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM21BR61C106KE15L_C77075.html</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value=""/>
+      <property name="Vendor" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM21BR61C106KE15L_C77075.html"/>
+      <property name="LCSC" value="C15850"/>
+      <property name="Sheetname" value="LED Driver"/>
+      <property name="Sheetfile" value="LED_driver.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/LED Driver/" tstamps="/906d9b01-c5b2-4615-86e8-3c8294737d59/"/>
+      <tstamps>fc215294-9d8c-4fbc-9811-7ff9e33e8cb9</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>LED_GRBWA</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-5-2.54_1x05_P2.54mm_Horizontal</footprint>
+      <datasheet>https://www.lcsc.com/product-detail/Screw-terminal_MAX-MX128-2-54-05P-GN01-Cu-Y-A_C5188445.html</datasheet>
+      <fields>
+        <field name="Description">MX128-2.54-05P-GN01-Cu-Y-A</field>
+        <field name="LCSC">C5188445</field>
+        <field name="Note">5 pin 2.54 Pitch Terminal Block</field>
+      </fields>
+      <libsource lib="projectlib" part="LED_GRBWA" description="LED symbol for connecting RGBW LED Strips"/>
+      <property name="Description" value="MX128-2.54-05P-GN01-Cu-Y-A"/>
+      <property name="LCSC" value="C5188445"/>
+      <property name="Note" value="5 pin 2.54 Pitch Terminal Block"/>
+      <property name="Sheetname" value="LED Driver"/>
+      <property name="Sheetfile" value="LED_driver.kicad_sch"/>
+      <property name="ki_description" value="LED symbol for connecting RGBW LED Strips"/>
+      <sheetpath names="/LED Driver/" tstamps="/906d9b01-c5b2-4615-86e8-3c8294737d59/"/>
+      <tstamps>f7378cd2-9461-40de-8690-700d286efa25</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>UMW30N06</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://item.szlcsc.com/176608.html</datasheet>
+      <fields>
+        <field name="LCSC">C369599</field>
+        <field name="Sim.Device">NMOS</field>
+        <field name="Sim.Pins">1=D 2=G 3=S</field>
+        <field name="Sim.Type">VDMOS</field>
+      </fields>
+      <libsource lib="UMW30N06" part="UMW30N06" description=""/>
+      <property name="LCSC" value="C369599"/>
+      <property name="Sim.Device" value="NMOS"/>
+      <property name="Sim.Type" value="VDMOS"/>
+      <property name="Sim.Pins" value="1=D 2=G 3=S"/>
+      <property name="Sheetname" value="LED Driver"/>
+      <property name="Sheetfile" value="LED_driver.kicad_sch"/>
+      <property name="ki_keywords" value="C369599"/>
+      <sheetpath names="/LED Driver/" tstamps="/906d9b01-c5b2-4615-86e8-3c8294737d59/"/>
+      <tstamps>b3d9e739-1e53-4e5a-92fd-373e598316b2</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>UMW30N06</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://item.szlcsc.com/176608.html</datasheet>
+      <fields>
+        <field name="LCSC">C369599</field>
+      </fields>
+      <libsource lib="UMW30N06" part="UMW30N06" description=""/>
+      <property name="LCSC" value="C369599"/>
+      <property name="Sheetname" value="LED Driver"/>
+      <property name="Sheetfile" value="LED_driver.kicad_sch"/>
+      <property name="ki_keywords" value="C369599"/>
+      <sheetpath names="/LED Driver/" tstamps="/906d9b01-c5b2-4615-86e8-3c8294737d59/"/>
+      <tstamps>d1fab6a7-c911-4055-bbef-29aed7c5d247</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>UMW30N06</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://item.szlcsc.com/176608.html</datasheet>
+      <fields>
+        <field name="LCSC">C369599</field>
+      </fields>
+      <libsource lib="UMW30N06" part="UMW30N06" description=""/>
+      <property name="LCSC" value="C369599"/>
+      <property name="Sheetname" value="LED Driver"/>
+      <property name="Sheetfile" value="LED_driver.kicad_sch"/>
+      <property name="ki_keywords" value="C369599"/>
+      <sheetpath names="/LED Driver/" tstamps="/906d9b01-c5b2-4615-86e8-3c8294737d59/"/>
+      <tstamps>ea298c3e-aa46-41f4-9876-831e3e53146f</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>UMW30N06</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://item.szlcsc.com/176608.html</datasheet>
+      <fields>
+        <field name="LCSC">C369599</field>
+      </fields>
+      <libsource lib="UMW30N06" part="UMW30N06" description=""/>
+      <property name="LCSC" value="C369599"/>
+      <property name="Sheetname" value="LED Driver"/>
+      <property name="Sheetfile" value="LED_driver.kicad_sch"/>
+      <property name="ki_keywords" value="C369599"/>
+      <sheetpath names="/LED Driver/" tstamps="/906d9b01-c5b2-4615-86e8-3c8294737d59/"/>
+      <tstamps>7e82f4ef-aa99-4d64-aa89-e22424353cb3</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C17408</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C17408"/>
+      <property name="Sheetname" value="LED Driver"/>
+      <property name="Sheetfile" value="LED_driver.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/LED Driver/" tstamps="/906d9b01-c5b2-4615-86e8-3c8294737d59/"/>
+      <tstamps>849ac9f7-2324-4e99-83a5-58003a408a79</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C17408</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C17408"/>
+      <property name="Sheetname" value="LED Driver"/>
+      <property name="Sheetfile" value="LED_driver.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/LED Driver/" tstamps="/906d9b01-c5b2-4615-86e8-3c8294737d59/"/>
+      <tstamps>5726fdec-c499-4f29-8563-52a91ca5e57f</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C17408</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C17408"/>
+      <property name="Sheetname" value="LED Driver"/>
+      <property name="Sheetfile" value="LED_driver.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/LED Driver/" tstamps="/906d9b01-c5b2-4615-86e8-3c8294737d59/"/>
+      <tstamps>3cb85f61-21fd-4f32-9665-e28a75d310aa</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C17408</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC" value="C17408"/>
+      <property name="Sheetname" value="LED Driver"/>
+      <property name="Sheetfile" value="LED_driver.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/LED Driver/" tstamps="/906d9b01-c5b2-4615-86e8-3c8294737d59/"/>
+      <tstamps>9a6e14cb-b840-455d-9ff8-2c0a0ef8cbf4</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>MCP1416</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5_HandSoldering</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf</datasheet>
+      <fields>
+        <field name="Description">alternatively: https://www.lcsc.com/product-detail/Gate-Drive-ICs_JSMSEMI-MCP1416T-E-OT-JSM_C18195002.html</field>
+        <field name="LCSC">C83775 </field>
+      </fields>
+      <libsource lib="Driver_FET" part="MCP1416" description="1.5A High speed power MOSFET driver with non-inverting output, SOT-23-5"/>
+      <property name="LCSC" value="C83775 "/>
+      <property name="Description" value="alternatively: https://www.lcsc.com/product-detail/Gate-Drive-ICs_JSMSEMI-MCP1416T-E-OT-JSM_C18195002.html"/>
+      <property name="Sheetname" value="LED Driver"/>
+      <property name="Sheetfile" value="LED_driver.kicad_sch"/>
+      <property name="ki_description" value="1.5A High speed power MOSFET driver with non-inverting output, SOT-23-5"/>
+      <property name="ki_keywords" value="mosfet gate driver"/>
+      <sheetpath names="/LED Driver/" tstamps="/906d9b01-c5b2-4615-86e8-3c8294737d59/"/>
+      <tstamps>5884e829-0a88-4b85-b588-69f855b38dc4</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>MCP1416</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5_HandSoldering</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf</datasheet>
+      <fields>
+        <field name="Description">alternatively: https://www.lcsc.com/product-detail/Gate-Drive-ICs_JSMSEMI-MCP1416T-E-OT-JSM_C18195002.html</field>
+        <field name="LCSC">C83775 </field>
+      </fields>
+      <libsource lib="Driver_FET" part="MCP1416" description="1.5A High speed power MOSFET driver with non-inverting output, SOT-23-5"/>
+      <property name="LCSC" value="C83775 "/>
+      <property name="Description" value="alternatively: https://www.lcsc.com/product-detail/Gate-Drive-ICs_JSMSEMI-MCP1416T-E-OT-JSM_C18195002.html"/>
+      <property name="Sheetname" value="LED Driver"/>
+      <property name="Sheetfile" value="LED_driver.kicad_sch"/>
+      <property name="ki_description" value="1.5A High speed power MOSFET driver with non-inverting output, SOT-23-5"/>
+      <property name="ki_keywords" value="mosfet gate driver"/>
+      <sheetpath names="/LED Driver/" tstamps="/906d9b01-c5b2-4615-86e8-3c8294737d59/"/>
+      <tstamps>ac2d682c-4716-4ee4-b5e9-1e09d6c08712</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>MCP1416</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5_HandSoldering</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf</datasheet>
+      <fields>
+        <field name="Description">alternatively: https://www.lcsc.com/product-detail/Gate-Drive-ICs_JSMSEMI-MCP1416T-E-OT-JSM_C18195002.html</field>
+        <field name="LCSC">C83775 </field>
+      </fields>
+      <libsource lib="Driver_FET" part="MCP1416" description="1.5A High speed power MOSFET driver with non-inverting output, SOT-23-5"/>
+      <property name="LCSC" value="C83775 "/>
+      <property name="Description" value="alternatively: https://www.lcsc.com/product-detail/Gate-Drive-ICs_JSMSEMI-MCP1416T-E-OT-JSM_C18195002.html"/>
+      <property name="Sheetname" value="LED Driver"/>
+      <property name="Sheetfile" value="LED_driver.kicad_sch"/>
+      <property name="ki_description" value="1.5A High speed power MOSFET driver with non-inverting output, SOT-23-5"/>
+      <property name="ki_keywords" value="mosfet gate driver"/>
+      <sheetpath names="/LED Driver/" tstamps="/906d9b01-c5b2-4615-86e8-3c8294737d59/"/>
+      <tstamps>cb90c748-756e-4485-a9f9-7d5972a03ccd</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>MCP1416</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5_HandSoldering</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf</datasheet>
+      <fields>
+        <field name="Description">alternatively: https://www.lcsc.com/product-detail/Gate-Drive-ICs_JSMSEMI-MCP1416T-E-OT-JSM_C18195002.html</field>
+        <field name="LCSC">C83775 </field>
+      </fields>
+      <libsource lib="Driver_FET" part="MCP1416" description="1.5A High speed power MOSFET driver with non-inverting output, SOT-23-5"/>
+      <property name="LCSC" value="C83775 "/>
+      <property name="Description" value="alternatively: https://www.lcsc.com/product-detail/Gate-Drive-ICs_JSMSEMI-MCP1416T-E-OT-JSM_C18195002.html"/>
+      <property name="Sheetname" value="LED Driver"/>
+      <property name="Sheetfile" value="LED_driver.kicad_sch"/>
+      <property name="ki_description" value="1.5A High speed power MOSFET driver with non-inverting output, SOT-23-5"/>
+      <property name="ki_keywords" value="mosfet gate driver"/>
+      <sheetpath names="/LED Driver/" tstamps="/906d9b01-c5b2-4615-86e8-3c8294737d59/"/>
+      <tstamps>ad159888-2764-4a95-8b5e-f9409c3a9128</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C15850</field>
+        <field name="Vendor">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM21BR61C106KE15L_C77075.html</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value=""/>
+      <property name="Vendor" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM21BR61C106KE15L_C77075.html"/>
+      <property name="LCSC" value="C15850"/>
+      <property name="Sheetname" value="Power_and_board"/>
+      <property name="Sheetfile" value="Power_and_board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power_and_board/" tstamps="/ff2d7abe-3ed9-4cf8-a089-c3975f855094/"/>
+      <tstamps>7fe581bd-3db0-44de-980f-9a1fc13af923</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C15850</field>
+        <field name="Vendor">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM21BR61C106KE15L_C77075.html</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value=""/>
+      <property name="Vendor" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM21BR61C106KE15L_C77075.html"/>
+      <property name="LCSC" value="C15850"/>
+      <property name="Sheetname" value="Power_and_board"/>
+      <property name="Sheetfile" value="Power_and_board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power_and_board/" tstamps="/ff2d7abe-3ed9-4cf8-a089-c3975f855094/"/>
+      <tstamps>81ce99c3-f416-4e91-89d9-6043ccae66eb</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C15850</field>
+        <field name="Vendor">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM21BR61C106KE15L_C77075.html</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value=""/>
+      <property name="Vendor" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM21BR61C106KE15L_C77075.html"/>
+      <property name="LCSC" value="C15850"/>
+      <property name="Sheetname" value="Power_and_board"/>
+      <property name="Sheetfile" value="Power_and_board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power_and_board/" tstamps="/ff2d7abe-3ed9-4cf8-a089-c3975f855094/"/>
+      <tstamps>44dbee05-a162-4de9-ae99-c87d077265ae</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C15850</field>
+        <field name="Vendor">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM21BR61C106KE15L_C77075.html</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value=""/>
+      <property name="Vendor" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM21BR61C106KE15L_C77075.html"/>
+      <property name="LCSC" value="C15850"/>
+      <property name="Sheetname" value="Power_and_board"/>
+      <property name="Sheetfile" value="Power_and_board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power_and_board/" tstamps="/ff2d7abe-3ed9-4cf8-a089-c3975f855094/"/>
+      <tstamps>a0f890cf-b7eb-4239-bd3c-750545a9e726</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C49678</field>
+        <field name="Vendor">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0805B104K500NT_C38141.html</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Vendor" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0805B104K500NT_C38141.html"/>
+      <property name="LCSC" value="C49678"/>
+      <property name="Sheetname" value="Power_and_board"/>
+      <property name="Sheetfile" value="Power_and_board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power_and_board/" tstamps="/ff2d7abe-3ed9-4cf8-a089-c3975f855094/"/>
+      <tstamps>2a459aa0-af5a-4ab3-b06f-17e132dc2e4c</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C15850</field>
+        <field name="Vendor">https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM21BR61C106KE15L_C77075.html</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value=""/>
+      <property name="Vendor" value="https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Murata-Electronics-GRM21BR61C106KE15L_C77075.html"/>
+      <property name="LCSC" value="C15850"/>
+      <property name="Sheetname" value="Power_and_board"/>
+      <property name="Sheetfile" value="Power_and_board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Power_and_board/" tstamps="/ff2d7abe-3ed9-4cf8-a089-c3975f855094/"/>
+      <tstamps>be4c61b0-eaaf-4389-987a-eb9b0a16a4a9</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>SMF12A</value>
+      <footprint>Diode_SMD:D_SMF</footprint>
+      <datasheet>https://www.vishay.com/doc?85881</datasheet>
+      <fields>
+        <field name="LCSC">C726901</field>
+      </fields>
+      <libsource lib="Diode" part="SMF18A" description="200W unidirectional Transil Transient Voltage Suppressor, 18Vrwm, SMF"/>
+      <property name="LCSC" value="C726901"/>
+      <property name="Sheetname" value="Power_and_board"/>
+      <property name="Sheetfile" value="Power_and_board.kicad_sch"/>
+      <property name="ki_description" value="200W unidirectional Transil Transient Voltage Suppressor, 18Vrwm, SMF"/>
+      <property name="ki_keywords" value="diode TVS voltage suppressor"/>
+      <sheetpath names="/Power_and_board/" tstamps="/ff2d7abe-3ed9-4cf8-a089-c3975f855094/"/>
+      <tstamps>32937ca4-0619-4dc4-80c8-d66c691a61f6</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>1N5819WS</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <fields>
+        <field name="LCSC">C191023</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="LCSC" value="C191023"/>
+      <property name="Sheetname" value="Power_and_board"/>
+      <property name="Sheetfile" value="Power_and_board.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Power_and_board/" tstamps="/ff2d7abe-3ed9-4cf8-a089-c3975f855094/"/>
+      <tstamps>095284fd-4391-4a55-8151-e526e120780a</tstamps>
+    </comp>
+    <comp ref="F2">
+      <value>Fuse Holder</value>
+      <footprint>jmux-footprints:FUSE-TH_XF-505P</footprint>
+      <fields>
+        <field name="Description">https://www.lcsc.com/product-detail/Fuse-Holders_XFCN-XF-505P_C843270.html</field>
+        <field name="LCSC">C843270</field>
+      </fields>
+      <libsource lib="projectlib" part="FuseHolder" description="Fuse Holder Symbol"/>
+      <property name="Description" value="https://www.lcsc.com/product-detail/Fuse-Holders_XFCN-XF-505P_C843270.html"/>
+      <property name="LCSC" value="C843270"/>
+      <property name="Sheetname" value="Power_and_board"/>
+      <property name="Sheetfile" value="Power_and_board.kicad_sch"/>
+      <property name="ki_description" value="Fuse Holder Symbol"/>
+      <property name="ki_keywords" value="fuse"/>
+      <sheetpath names="/Power_and_board/" tstamps="/ff2d7abe-3ed9-4cf8-a089-c3975f855094/"/>
+      <tstamps>3fa20598-01a2-46c8-b0a7-6408aa4d889d</tstamps>
+    </comp>
+    <comp ref="F4">
+      <value>Fuse 8A</value>
+      <fields>
+        <field name="LCSC">-</field>
+      </fields>
+      <libsource lib="" part="Fuse-noLegs_1" description="Symbol for using a fuse with independent fuse holders. No legs so no missing connections, and excluded from board. "/>
+      <property name="Description" value=""/>
+      <property name="LCSC" value="-"/>
+      <property name="Sheetname" value="Power_and_board"/>
+      <property name="Sheetfile" value="Power_and_board.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_description" value="Symbol for using a fuse with independent fuse holders. No legs so no missing connections, and excluded from board. "/>
+      <property name="ki_keywords" value="fuse"/>
+      <sheetpath names="/Power_and_board/" tstamps="/ff2d7abe-3ed9-4cf8-a089-c3975f855094/"/>
+      <tstamps>b8a1f697-27dd-44b5-af67-3b48a844fe8e</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>AMS1117-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.advanced-monolithic.com/pdf/ds1117.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C6186</field>
+        <field name="Vendor">https://www.lcsc.com/product-detail/Linear-span-style-background-color-ff0-Voltage-span-Regulators-LDO_UMW-Youtai-Semiconductor-Co-Ltd-AMS1117-3-3_C347222.html</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="AMS1117-3.3" description="1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"/>
+      <property name="Vendor" value="https://www.lcsc.com/product-detail/Linear-span-style-background-color-ff0-Voltage-span-Regulators-LDO_UMW-Youtai-Semiconductor-Co-Ltd-AMS1117-3-3_C347222.html"/>
+      <property name="LCSC" value="C6186"/>
+      <property name="Sheetname" value="Power_and_board"/>
+      <property name="Sheetfile" value="Power_and_board.kicad_sch"/>
+      <property name="ki_description" value="1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"/>
+      <property name="ki_keywords" value="linear regulator ldo fixed positive"/>
+      <sheetpath names="/Power_and_board/" tstamps="/ff2d7abe-3ed9-4cf8-a089-c3975f855094/"/>
+      <tstamps>22eb4d32-1f7b-477f-8d5e-554f60eee6e3</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="Fuse-noLegs_1">
+      <description>Symbol for using a fuse with independent fuse holders. No legs so no missing connections, and excluded from board. </description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F?</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="C5117870_lib" part="GT-TC060A-H025-L1">
+      <docs>https://item.szlcsc.com/902766.html</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">GT-TC060A-H025-L1</field>
+        <field name="Footprint">footprint:SW-SMD_L6.1-W3.5-LS8.0</field>
+        <field name="Datasheet">https://item.szlcsc.com/902766.html</field>
+        <field name="LCSC">C5117870</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_RBGA">
+      <description>RGB LED, red/blue/green/anode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_RBGA</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RK" type="passive"/>
+        <pin num="2" name="BK" type="passive"/>
+        <pin num="3" name="GK" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="SMF18A">
+      <description>200W unidirectional Transil Transient Voltage Suppressor, 18Vrwm, SMF</description>
+      <docs>https://www.vishay.com/doc?85881</docs>
+      <footprints>
+        <fp>D*SMF*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SMF18A</field>
+        <field name="Footprint">Diode_SMD:D_SMF</field>
+        <field name="Datasheet">https://www.vishay.com/doc?85881</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Driver_FET" part="MCP1416">
+      <description>1.5A High speed power MOSFET driver with non-inverting output, SOT-23-5</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1416</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="Vdd" type="power_in"/>
+        <pin num="3" name="IN" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="OUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_Module" part="ESP-12F">
+      <description>802.11 b/g/n Wi-Fi Module</description>
+      <docs>http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf</docs>
+      <footprints>
+        <fp>ESP?12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP-12F</field>
+        <field name="Footprint">RF_Module:ESP-12E</field>
+        <field name="Datasheet">http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{RST}" type="input"/>
+        <pin num="2" name="ADC" type="input"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="GPIO16" type="bidirectional"/>
+        <pin num="5" name="GPIO14" type="bidirectional"/>
+        <pin num="6" name="GPIO12" type="bidirectional"/>
+        <pin num="7" name="GPIO13" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+        <pin num="9" name="CS0" type="input"/>
+        <pin num="10" name="MISO" type="bidirectional"/>
+        <pin num="11" name="GPIO9" type="bidirectional"/>
+        <pin num="12" name="GPIO10" type="bidirectional"/>
+        <pin num="13" name="MOSI" type="bidirectional"/>
+        <pin num="14" name="SCLK" type="bidirectional"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="GPIO15" type="bidirectional"/>
+        <pin num="17" name="GPIO2" type="bidirectional"/>
+        <pin num="18" name="GPIO0" type="bidirectional"/>
+        <pin num="19" name="GPIO4" type="bidirectional"/>
+        <pin num="20" name="GPIO5" type="bidirectional"/>
+        <pin num="21" name="GPIO3/RXD" type="bidirectional"/>
+        <pin num="22" name="GPIO1/TXD" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AMS1117-3.3">
+      <description>1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223</description>
+      <docs>http://www.advanced-monolithic.com/pdf/ds1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AMS1117-3.3</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">http://www.advanced-monolithic.com/pdf/ds1117.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="UMW30N06" part="UMW30N06">
+      <docs>https://item.szlcsc.com/176608.html</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">UMW30N06</field>
+        <field name="Footprint">footprint:TO-252-2_L6.6-W6.1-P4.57-LS9.9-BR-CW</field>
+        <field name="Datasheet">https://item.szlcsc.com/176608.html</field>
+        <field name="LCSC">C369599</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="unspecified"/>
+        <pin num="2" name="D" type="unspecified"/>
+        <pin num="3" name="S" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="dc_jack_lib" part="DC-470-2_1GP">
+      <docs>https://so.szlcsc.com/global.html?c=&amp;k=C194407</docs>
+      <fields>
+        <field name="Reference">J2</field>
+        <field name="Value">DC-470-2_1GP</field>
+        <field name="Footprint">footprint:DC-IN-TH_DC-470-2.1GP</field>
+        <field name="Datasheet">https://so.szlcsc.com/global.html?c=&amp;k=C194407</field>
+        <field name="LCSC">C194407</field>
+        <field name="Vendor">https://www.lcsc.com/product-detail/AC-span-style-background-color-ff0-DC-span-span-style-background-color-ff0-Power-span-Connectors_GANGYUAN-DC-470-2-1GP_C194407.html</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="jmux-kicadlib" part="SOICbite-ESP8266">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">ProgConn-SOICBite</field>
+        <field name="Footprint">jmux-footprints:SOIC_clipProgESP8266</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="passive"/>
+        <pin num="2" name="GPIO0" type="passive"/>
+        <pin num="3" name="GPIO2" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="RX" type="passive"/>
+        <pin num="6" name="TX" type="passive"/>
+        <pin num="7" name="CH_PD" type="passive"/>
+        <pin num="8" name="RST" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="projectlib" part="FuseHolder">
+      <description>Fuse Holder Symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F2</field>
+        <field name="Value">Fuse Holder</field>
+        <field name="Footprint">Fuse:Fuseholder_Clip-5x20mm_Littelfuse_111_Inline_P20.00x5.00mm_D1.05mm_Horizontal</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">I think this one: https://www.lcsc.com/product-detail/Fuse-Holders_Xucheng-Elec-9A-520SW1G1_C2927393.html</field>
+        <field name="LCSC">C2927393</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="projectlib" part="LED_GRBWA">
+      <description>LED symbol for connecting RGBW LED Strips</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">LED_GRBWA</field>
+        <field name="Footprint">Connector_Wire:SolderWire-0.15sqmm_1x05_P4mm_D0.5mm_OD1.5mm_Relief</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GK" type="passive"/>
+        <pin num="2" name="RK" type="passive"/>
+        <pin num="3" name="BK" type="passive"/>
+        <pin num="4" name="W" type="passive"/>
+        <pin num="5" name="A" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Users\Jacob\AppData\Local\Programs\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Users\Jacob\AppData\Local\Programs\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Users\Jacob\AppData\Local\Programs\KiCad\7.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Driver_FET">
+      <uri>C:\Users\Jacob\AppData\Local\Programs\KiCad\7.0\share\kicad\symbols\/Driver_FET.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Users\Jacob\AppData\Local\Programs\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="RF_Module">
+      <uri>C:\Users\Jacob\AppData\Local\Programs\KiCad\7.0\share\kicad\symbols\/RF_Module.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Users\Jacob\AppData\Local\Programs\KiCad\7.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="jmux-kicadlib">
+      <uri>C:/Users/Jacob/Documents/KiCad/jmux-kicad-things/symbols/jmux-kicadlib.kicad_sym</uri>
+    </library>
+    <library logical="projectlib">
+      <uri>C:\Users\Jacob\Documents\GitHub\iot_pwm_leddriver\PCB/projectlib/projectlib.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="2" name="+3.3V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U7" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="3" name="/12VDC IN">
+      <node ref="F2" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="unspecified"/>
+    </net>
+    <net code="4" name="/GPIO0">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U1" pin="18" pinfunction="GPIO0" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/LED Driver/LED_B">
+      <node ref="U1" pin="5" pinfunction="GPIO14" pintype="bidirectional"/>
+      <node ref="U5" pin="3" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="6" name="/LED Driver/LED_B_G">
+      <node ref="Q3" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/LED Driver/LED_B_GND">
+      <node ref="J3" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="D" pintype="unspecified"/>
+    </net>
+    <net code="8" name="/LED Driver/LED_G">
+      <node ref="U1" pin="7" pinfunction="GPIO13" pintype="bidirectional"/>
+      <node ref="U4" pin="3" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="9" name="/LED Driver/LED_G_G">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="/LED Driver/LED_G_GND">
+      <node ref="J3" pin="1" pinfunction="GK" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="D" pintype="unspecified"/>
+    </net>
+    <net code="11" name="/LED Driver/LED_R">
+      <node ref="U1" pin="20" pinfunction="GPIO5" pintype="bidirectional"/>
+      <node ref="U2" pin="3" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="12" name="/LED Driver/LED_R_G">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="/LED Driver/LED_R_GND">
+      <node ref="J3" pin="2" pinfunction="RK" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="D" pintype="unspecified"/>
+    </net>
+    <net code="14" name="/LED Driver/LED_W">
+      <node ref="U1" pin="6" pinfunction="GPIO12" pintype="bidirectional"/>
+      <node ref="U3" pin="3" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="15" name="/LED Driver/LED_W_G">
+      <node ref="Q4" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="/LED Driver/LED_W_GND">
+      <node ref="J3" pin="4" pinfunction="W" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="D" pintype="unspecified"/>
+    </net>
+    <net code="17" name="/RX">
+      <node ref="U1" pin="22" pinfunction="GPIO1/TXD" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/TX">
+      <node ref="U1" pin="21" pinfunction="GPIO3/RXD" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/~{RST}">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U1" pin="1" pinfunction="~{RST}" pintype="input"/>
+    </net>
+    <net code="21" name="EN">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="22" name="Earth">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J2" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="Q1" pin="3" pinfunction="S" pintype="unspecified"/>
+      <node ref="Q2" pin="3" pinfunction="S" pintype="unspecified"/>
+      <node ref="Q3" pin="3" pinfunction="S" pintype="unspecified"/>
+      <node ref="Q4" pin="3" pinfunction="S" pintype="unspecified"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U1" pin="15" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="23" name="GPIO2">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="GPIO2" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="GPIO15">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="GPIO15" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(U1-GPIO16)">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GPIO16" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="Net-(U2-OUT)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="31" name="Net-(U3-OUT)">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="32" name="Net-(U4-OUT)">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="33" name="Net-(U5-OUT)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="34" name="VDD">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="F2" pin="2" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="Vdd" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="Vdd" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="Vdd" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="Vdd" pintype="power_in"/>
+      <node ref="U7" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="35" name="unconnected-(U1-ADC-Pad2)">
+      <node ref="U1" pin="2" pinfunction="ADC" pintype="input+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U1-CS0-Pad9)">
+      <node ref="U1" pin="9" pinfunction="CS0" pintype="input+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U1-GPIO4-Pad19)">
+      <node ref="U1" pin="19" pinfunction="GPIO4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U1-GPIO9-Pad11)">
+      <node ref="U1" pin="11" pinfunction="GPIO9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U1-GPIO10-Pad12)">
+      <node ref="U1" pin="12" pinfunction="GPIO10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U1-MISO-Pad10)">
+      <node ref="U1" pin="10" pinfunction="MISO" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U1-MOSI-Pad13)">
+      <node ref="U1" pin="13" pinfunction="MOSI" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U1-SCLK-Pad14)">
+      <node ref="U1" pin="14" pinfunction="SCLK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U2-NC-Pad1)">
+      <node ref="U2" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U3-NC-Pad1)">
+      <node ref="U3" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U4-NC-Pad1)">
+      <node ref="U4" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U5-NC-Pad1)">
+      <node ref="U5" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
