@@ -1436,11 +1436,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5fb3d9c1-17e3-4f00-8035-1dc597af39f4)
   )
-  (text "THIS TERMINAL BLOCK MUST BE REPLACED WITH A 5.08MM SPACING ONE!!"
-    (at 161.29 96.52 0)
-    (effects (font (size 1.27 1.27) italic) (justify left bottom))
-    (uuid eb822d35-2f8d-4fa8-a096-3897d4efc389)
-  )
 
   (label "LED_R_GND" (at 223.52 79.375 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1560,7 +1555,7 @@
           (reference "C14") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/906d9b01-c5b2-4615-86e8-3c8294737d59"
           (reference "C4") (unit 1)
         )
@@ -1605,7 +1600,7 @@
           (reference "C13") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/906d9b01-c5b2-4615-86e8-3c8294737d59"
           (reference "C3") (unit 1)
         )
@@ -1640,7 +1635,7 @@
           (reference "#PWR037") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/906d9b01-c5b2-4615-86e8-3c8294737d59"
           (reference "#PWR015") (unit 1)
         )
@@ -1675,7 +1670,7 @@
           (reference "#PWR040") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/906d9b01-c5b2-4615-86e8-3c8294737d59"
           (reference "#PWR016") (unit 1)
         )
@@ -1714,7 +1709,7 @@
           (reference "R16") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/906d9b01-c5b2-4615-86e8-3c8294737d59"
           (reference "R10") (unit 1)
         )
@@ -1742,6 +1737,9 @@
     (property "Datasheet" "~" (at 245.11 76.835 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "-" (at 245.11 76.835 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid c1f7631a-f4fc-459d-8d4d-2767c8a20a67))
     (pin "2" (uuid 6fe3125d-9f2a-4f0d-863b-4b365e901640))
     (pin "3" (uuid bf2520f9-4e63-4bdc-bb08-cc8a7897b8b2))
@@ -1752,7 +1750,7 @@
           (reference "J4") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/906d9b01-c5b2-4615-86e8-3c8294737d59"
           (reference "J4") (unit 1)
         )
@@ -1787,7 +1785,7 @@
           (reference "#PWR038") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/906d9b01-c5b2-4615-86e8-3c8294737d59"
           (reference "#PWR013") (unit 1)
         )
@@ -1821,6 +1819,9 @@
     (property "Sim.Enable" "0" (at 217.17 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "-" (at 217.17 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 193e7b60-71a5-44b3-aff1-81a67e339b02))
     (pin "2" (uuid 591f790b-27e6-4c2e-93f9-0f3c926317ef))
     (pin "3" (uuid 55eb41a4-6565-4515-b224-0b020a3eee3e))
@@ -1831,7 +1832,7 @@
           (reference "D2") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/906d9b01-c5b2-4615-86e8-3c8294737d59"
           (reference "D4") (unit 1)
         )
@@ -1870,7 +1871,7 @@
           (reference "R15") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/906d9b01-c5b2-4615-86e8-3c8294737d59"
           (reference "R8") (unit 1)
         )
@@ -1901,6 +1902,9 @@
     (property "LCSC" "C83775 " (at 113.665 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "alternatively: https://www.lcsc.com/product-detail/Gate-Drive-ICs_JSMSEMI-MCP1416T-E-OT-JSM_C18195002.html" (at 113.665 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 179e648b-16c4-4d7f-8837-8d902ae4c10c))
     (pin "2" (uuid 2498a579-1fed-4518-91cb-828a1f7ba29f))
     (pin "3" (uuid 6a5e2fb0-d349-443c-a841-d9fb21cc758f))
@@ -1912,7 +1916,7 @@
           (reference "U7") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/906d9b01-c5b2-4615-86e8-3c8294737d59"
           (reference "U2") (unit 1)
         )
@@ -1957,7 +1961,7 @@
           (reference "C13") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/906d9b01-c5b2-4615-86e8-3c8294737d59"
           (reference "C2") (unit 1)
         )
@@ -1992,7 +1996,7 @@
           (reference "#PWR040") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/906d9b01-c5b2-4615-86e8-3c8294737d59"
           (reference "#PWR026") (unit 1)
         )
@@ -2032,7 +2036,7 @@
           (reference "Q5") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/906d9b01-c5b2-4615-86e8-3c8294737d59"
           (reference "Q4") (unit 1)
         )
@@ -2071,7 +2075,7 @@
           (reference "R16") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/906d9b01-c5b2-4615-86e8-3c8294737d59"
           (reference "R7") (unit 1)
         )
@@ -2110,7 +2114,7 @@
           (reference "R14") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/906d9b01-c5b2-4615-86e8-3c8294737d59"
           (reference "R11") (unit 1)
         )
@@ -2144,6 +2148,9 @@
     (property "Sim.Enable" "0" (at 243.84 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "-" (at 243.84 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 033e622f-365b-4df6-9368-75b75dd46cfc))
     (pin "2" (uuid e503a58f-4fe3-4bc3-b865-000e9bfb6e50))
     (pin "3" (uuid 7c4e6a3e-2601-44e2-a57b-6b8ccc19f04c))
@@ -2154,7 +2161,7 @@
           (reference "D2") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/906d9b01-c5b2-4615-86e8-3c8294737d59"
           (reference "D3") (unit 1)
         )
@@ -2185,6 +2192,9 @@
     (property "LCSC" "C83775 " (at 115.57 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "alternatively: https://www.lcsc.com/product-detail/Gate-Drive-ICs_JSMSEMI-MCP1416T-E-OT-JSM_C18195002.html" (at 115.57 140.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid f2fae88b-acc7-48f9-a3b4-cb202c182620))
     (pin "2" (uuid b14540c8-c26d-4f84-ab52-19e23dc95cae))
     (pin "3" (uuid cc4a50ec-481a-4207-a155-57ca5442dc16))
@@ -2196,7 +2206,7 @@
           (reference "U8") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/906d9b01-c5b2-4615-86e8-3c8294737d59"
           (reference "U3") (unit 1)
         )
@@ -2227,6 +2237,9 @@
     (property "LCSC" "C83775 " (at 114.935 108.585 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "alternatively: https://www.lcsc.com/product-detail/Gate-Drive-ICs_JSMSEMI-MCP1416T-E-OT-JSM_C18195002.html" (at 114.935 108.585 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid bbb37074-070e-4fdd-808c-93dd69f8738f))
     (pin "2" (uuid 380e4757-cb58-4608-b39f-a149e513cfde))
     (pin "3" (uuid 115839a0-3129-4a75-8866-4126ceed7aee))
@@ -2238,7 +2251,7 @@
           (reference "U8") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/906d9b01-c5b2-4615-86e8-3c8294737d59"
           (reference "U5") (unit 1)
         )
@@ -2273,7 +2286,7 @@
           (reference "#PWR041") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/906d9b01-c5b2-4615-86e8-3c8294737d59"
           (reference "#PWR020") (unit 1)
         )
@@ -2322,7 +2335,7 @@
           (reference "Q3") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/906d9b01-c5b2-4615-86e8-3c8294737d59"
           (reference "Q1") (unit 1)
         )
@@ -2357,7 +2370,7 @@
           (reference "#PWR037") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/906d9b01-c5b2-4615-86e8-3c8294737d59"
           (reference "#PWR012") (unit 1)
         )
@@ -2388,6 +2401,9 @@
     (property "LCSC" "C83775 " (at 113.665 78.105 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "alternatively: https://www.lcsc.com/product-detail/Gate-Drive-ICs_JSMSEMI-MCP1416T-E-OT-JSM_C18195002.html" (at 113.665 78.105 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 6f24ad36-5678-4c83-ab45-04b34037f7ba))
     (pin "2" (uuid 6149c013-c741-4ff4-b17f-d58b7551e32e))
     (pin "3" (uuid 06fee98b-cd54-42d6-ad88-21645e0cac10))
@@ -2399,7 +2415,7 @@
           (reference "U7") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/906d9b01-c5b2-4615-86e8-3c8294737d59"
           (reference "U4") (unit 1)
         )
@@ -2439,7 +2455,7 @@
           (reference "Q4") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/906d9b01-c5b2-4615-86e8-3c8294737d59"
           (reference "Q2") (unit 1)
         )
@@ -2474,7 +2490,7 @@
           (reference "#PWR041") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/906d9b01-c5b2-4615-86e8-3c8294737d59"
           (reference "#PWR027") (unit 1)
         )
@@ -2509,7 +2525,7 @@
           (reference "#PWR038") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/906d9b01-c5b2-4615-86e8-3c8294737d59"
           (reference "#PWR024") (unit 1)
         )
@@ -2549,7 +2565,7 @@
           (reference "Q5") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/906d9b01-c5b2-4615-86e8-3c8294737d59"
           (reference "Q3") (unit 1)
         )
@@ -2574,10 +2590,16 @@
     (property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-5-2.54_1x05_P2.54mm_Horizontal" (at 193.421 100.584 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 191.77 90.17 0)
+    (property "Datasheet" "https://www.lcsc.com/product-detail/Screw-terminal_MAX-MX128-2-54-05P-GN01-Cu-Y-A_C5188445.html" (at 191.77 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "FIX SELECTION OF TERMINAL BLOCK, MUST SOURCE ONE CORRECTLY!!!" (at 191.77 90.17 0)
+    (property "Description" "MX128-2.54-05P-GN01-Cu-Y-A" (at 191.77 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C5188445" (at 191.77 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Note" "5 pin 2.54 Pitch Terminal Block" (at 191.77 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 597ec4f7-4de2-4538-b072-5f5d635f690e))
@@ -2586,7 +2608,7 @@
     (pin "4" (uuid 2edb48f2-86f9-4529-992e-41a8bef12a28))
     (pin "5" (uuid 270c646d-4c4c-44b8-8cff-d243a105c1c3))
     (instances
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/906d9b01-c5b2-4615-86e8-3c8294737d59"
           (reference "J3") (unit 1)
         )
@@ -2626,7 +2648,7 @@
           (reference "C14") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/906d9b01-c5b2-4615-86e8-3c8294737d59"
           (reference "C6") (unit 1)
         )

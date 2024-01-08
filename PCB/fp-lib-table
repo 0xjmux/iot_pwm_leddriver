@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/projectlib/footprints")(options "")(descr ""))
+  (lib (name "projectlib")(type "KiCad")(uri "${KIPRJMOD}/projectlib/footprints")(options "")(descr ""))
 )

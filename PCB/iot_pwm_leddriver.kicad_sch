@@ -1296,7 +1296,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 38.1 113.03 270) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (in_bom no) (on_board no) (dnp yes)
     (uuid 08f1c530-d633-4ef5-8252-06d4730cecd7)
     (property "Reference" "TP7" (at 42.545 114.935 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1313,6 +1313,12 @@
     (property "Vendor" "~" (at 38.1 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Enable" "0" (at 38.1 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "-" (at 38.1 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid b042776b-f5dc-40c4-8c75-03917c404501))
     (instances
       (project "Power_and_board"
@@ -1325,7 +1331,7 @@
           (reference "TP7") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/ff2d7abe-3ed9-4cf8-a089-c3975f855094"
           (reference "TP2") (unit 1)
         )
@@ -1358,7 +1364,7 @@
           (reference "#PWR019") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "#PWR07") (unit 1)
         )
@@ -1388,7 +1394,7 @@
           (reference "#PWR0105") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "#PWR01") (unit 1)
         )
@@ -1418,7 +1424,7 @@
           (reference "#PWR026") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "#PWR04") (unit 1)
         )
@@ -1448,7 +1454,7 @@
           (reference "#PWR028") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "#PWR05") (unit 1)
         )
@@ -1478,7 +1484,7 @@
           (reference "#PWR024") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "#PWR010") (unit 1)
         )
@@ -1508,7 +1514,7 @@
           (reference "#PWR05") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "#PWR014") (unit 1)
         )
@@ -1545,7 +1551,7 @@
           (reference "D1") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "D2") (unit 1)
         )
@@ -1575,7 +1581,7 @@
           (reference "#PWR025") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "#PWR03") (unit 1)
         )
@@ -1600,7 +1606,7 @@
     )
     (pin "1" (uuid 2034ede7-72f8-4f57-abd1-e1f341976da2))
     (instances
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "#PWR023") (unit 1)
         )
@@ -1630,7 +1636,7 @@
           (reference "#PWR029") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "#PWR06") (unit 1)
         )
@@ -1660,7 +1666,7 @@
           (reference "#PWR0106") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "#PWR02") (unit 1)
         )
@@ -1690,7 +1696,7 @@
           (reference "#PWR024") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "#PWR019") (unit 1)
         )
@@ -1727,7 +1733,7 @@
           (reference "R11") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "R5") (unit 1)
         )
@@ -1757,7 +1763,7 @@
           (reference "#PWR023") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "#PWR018") (unit 1)
         )
@@ -1795,7 +1801,7 @@
           (reference "J2") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "J2") (unit 1)
         )
@@ -1832,7 +1838,7 @@
           (reference "SW1") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "SW1") (unit 1)
         )
@@ -1862,7 +1868,7 @@
           (reference "#PWR022") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "#PWR017") (unit 1)
         )
@@ -1892,7 +1898,7 @@
           (reference "#PWR027") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "#PWR021") (unit 1)
         )
@@ -1929,7 +1935,7 @@
           (reference "R5") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "R2") (unit 1)
         )
@@ -1966,7 +1972,7 @@
           (reference "R6") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "R3") (unit 1)
         )
@@ -1996,7 +2002,7 @@
           (reference "#PWR023") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "#PWR09") (unit 1)
         )
@@ -2033,7 +2039,7 @@
           (reference "SW2") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "SW2") (unit 1)
         )
@@ -2059,7 +2065,10 @@
     (property "Vendor" "" (at 161.29 126.365 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 161.29 126.365 0)
+    (property "LCSC" " C17513 " (at 161.29 126.365 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "125mW Thick Film Resistors ±100ppm/℃ ±1% 1kΩ 0805 Chip Resistor - Surface Mount ROHS" (at 161.29 126.365 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 823c52c5-d95f-4e03-b09d-b8848d0396ed))
@@ -2070,7 +2079,7 @@
           (reference "R13") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "R9") (unit 1)
         )
@@ -2107,7 +2116,7 @@
           (reference "R10") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "R1") (unit 1)
         )
@@ -2137,7 +2146,7 @@
           (reference "#PWR0101") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "#PWR08") (unit 1)
         )
@@ -2158,6 +2167,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf" (at 124.46 113.665 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" " C82891 " (at 133.35 116.205 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a6a7ba96-5b76-4e05-8836-815d7b847d55))
@@ -2188,7 +2200,7 @@
           (reference "U2") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "U1") (unit 1)
         )
@@ -2197,7 +2209,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 38.1 110.49 270) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (in_bom no) (on_board no) (dnp yes)
     (uuid e53b1da0-044e-496f-9aa8-ec1fc3c72b88)
     (property "Reference" "TP7" (at 42.545 110.49 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2214,6 +2226,12 @@
     (property "Vendor" "~" (at 38.1 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Enable" "0" (at 38.1 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "-" (at 38.1 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 4119eae7-d4f0-4e59-a9dc-3fb021dacabd))
     (instances
       (project "Power_and_board"
@@ -2226,7 +2244,7 @@
           (reference "TP7") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/ff2d7abe-3ed9-4cf8-a089-c3975f855094"
           (reference "TP1") (unit 1)
         )
@@ -2266,7 +2284,7 @@
           (reference "R7") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "R4") (unit 1)
         )
@@ -2303,7 +2321,7 @@
           (reference "D3") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "D1") (unit 1)
         )
@@ -2343,7 +2361,7 @@
           (reference "C4") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "C1") (unit 1)
         )
@@ -2369,7 +2387,10 @@
     (property "Vendor" "" (at 93.345 34.925 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "" (at 93.345 34.925 0)
+    (property "LCSC" " C17513 " (at 93.345 34.925 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "125mW Thick Film Resistors ±100ppm/℃ ±1% 1kΩ 0805 Chip Resistor - Surface Mount ROHS" (at 93.345 34.925 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1ba91a00-d293-4fc1-9f7d-8535b4a37ada))
@@ -2380,7 +2401,7 @@
           (reference "R12") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "R6") (unit 1)
         )
@@ -2403,6 +2424,9 @@
     (property "Datasheet" "" (at 38.1 104.775 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "-" (at 38.1 104.775 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid d292be0a-8544-45b9-9483-df6328c40f07))
     (pin "2" (uuid de27d3c4-682a-49a4-9cc4-6a9d82702d2c))
     (pin "3" (uuid 928f948d-4907-4604-9864-867b159c9856))
@@ -2412,7 +2436,7 @@
     (pin "7" (uuid 1dd7dfaf-ecf3-46fd-9fc3-9a75977b6d3c))
     (pin "8" (uuid e1d62e30-d077-46dc-99fb-4b7a045fbdf3))
     (instances
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "J1") (unit 1)
         )
@@ -2434,7 +2458,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid bb16a67e-95e2-481b-b949-4da820a429ce)
     )
-    (pin "LED_R" input (at 185.42 116.205 180)
+    (pin "LED_R" input (at 185.42 113.665 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid a5b709a4-2e99-433c-8b15-7e276377ec3a)
     )
@@ -2446,12 +2470,12 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid e73de824-da0d-4da3-bbec-d4bd417fd87b)
     )
-    (pin "LED_W" input (at 185.42 113.665 180)
+    (pin "LED_W" input (at 185.42 116.205 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 0161da8a-50a3-4def-b13b-18ca82a149a2)
     )
     (instances
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39" (page "2"))
       )
     )
@@ -2476,7 +2500,7 @@
       (uuid 9d6c985d-5915-4c00-9820-90e9d8523e86)
     )
     (instances
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39" (page "3"))
       )
     )

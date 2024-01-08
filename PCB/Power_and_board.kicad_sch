@@ -906,7 +906,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e374e0a4-a9da-457e-8a60-784d3c595d39)
   )
-  (text "https://www.lcsc.com/product-detail/Fuse-Holders_Xucheng-Elec-C3130_C3130.html"
+  (text "https://www.lcsc.com/product-detail/Fuse-Holders_Xucheng-Elec-C3130_C3130.html\n\nI think this one is best: https://www.lcsc.com/product-detail/Fuse-Holders_XFCN-XF-505P_C843270.html"
     (at 103.505 64.135 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fb6c639f-2ccc-41c8-a01b-8dedecb8cea8)
@@ -939,6 +939,9 @@
     (property "Vendor" "~" (at 157.48 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "-" (at 157.48 171.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid f8a3cada-226a-4fa2-b98b-f8f46d7a516f))
     (instances
       (project "iot_led_strip_pcb"
@@ -946,7 +949,7 @@
           (reference "H3") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "H3") (unit 1)
         )
@@ -988,7 +991,7 @@
           (reference "D8") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/ff2d7abe-3ed9-4cf8-a089-c3975f855094"
           (reference "D9") (unit 1)
         )
@@ -1014,6 +1017,9 @@
     (property "Vendor" "~" (at 173.99 94.615 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "-" (at 173.99 94.615 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 885f0097-f4f8-4fa3-9be8-8758e6d9fc06))
     (instances
       (project "Power_and_board"
@@ -1026,7 +1032,7 @@
           (reference "TP7") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/ff2d7abe-3ed9-4cf8-a089-c3975f855094"
           (reference "TP5") (unit 1)
         )
@@ -1052,6 +1058,9 @@
     (property "Vendor" "~" (at 138.43 94.615 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "-" (at 138.43 94.615 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 54ed170a-81b4-43cd-8ca6-a40120514d1a))
     (instances
       (project "Power_and_board"
@@ -1064,7 +1073,7 @@
           (reference "TP5") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/ff2d7abe-3ed9-4cf8-a089-c3975f855094"
           (reference "TP3") (unit 1)
         )
@@ -1107,7 +1116,7 @@
           (reference "U5") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/ff2d7abe-3ed9-4cf8-a089-c3975f855094"
           (reference "U7") (unit 1)
         )
@@ -1137,7 +1146,7 @@
           (reference "#PWR035") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "#PWR023") (unit 1)
         )
@@ -1175,7 +1184,7 @@
           (reference "#PWR030") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/ff2d7abe-3ed9-4cf8-a089-c3975f855094"
           (reference "#PWR025") (unit 1)
         )
@@ -1217,7 +1226,7 @@
           (reference "C10") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/ff2d7abe-3ed9-4cf8-a089-c3975f855094"
           (reference "C16") (unit 1)
         )
@@ -1256,7 +1265,7 @@
           (reference "D4") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/ff2d7abe-3ed9-4cf8-a089-c3975f855094"
           (reference "D5") (unit 1)
         )
@@ -1282,6 +1291,9 @@
     (property "Vendor" "~" (at 165.1 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "-" (at 165.1 171.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid e965fb38-d1cc-46c2-b9bc-45c7ea0a739b))
     (instances
       (project "iot_led_strip_pcb"
@@ -1289,7 +1301,7 @@
           (reference "H4") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "H4") (unit 1)
         )
@@ -1309,23 +1321,26 @@
     (property "Value" "Fuse Holder" (at 98.425 91.44 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Fuse:Fuseholder_Clip-5x20mm_Littelfuse_111_Inline_P20.00x5.00mm_D1.05mm_Horizontal" (at 99.695 100.965 0)
+    (property "Footprint" "projectlib:FUSE-TH_XF-505P" (at 99.695 100.965 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 98.425 94.615 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "I think this one: https://www.lcsc.com/product-detail/Fuse-Holders_Xucheng-Elec-9A-520SW1G1_C2927393.html" (at 98.425 103.505 0)
+    (property "Description" "https://www.lcsc.com/product-detail/Fuse-Holders_XFCN-XF-505P_C843270.html" (at 98.425 103.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C2927393" (at 104.775 89.535 0)
+    (property "LCSC" "C843270" (at 104.775 89.535 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0f9b8465-1e51-45b0-a9bd-2e0d1be88ffb))
     (pin "2" (uuid 3fc1f1bc-dac8-4297-9111-86044b775dff))
     (instances
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/ff2d7abe-3ed9-4cf8-a089-c3975f855094"
+          (reference "F2") (unit 1)
+        )
+        (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "F2") (unit 1)
         )
       )
@@ -1350,6 +1365,9 @@
     (property "Vendor" "~" (at 149.86 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "-" (at 149.86 171.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid f6425cdc-c38e-409b-addc-f3f758acdea1))
     (instances
       (project "iot_led_strip_pcb"
@@ -1357,7 +1375,7 @@
           (reference "H1") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "H1") (unit 1)
         )
@@ -1405,7 +1423,7 @@
           (reference "C6") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/ff2d7abe-3ed9-4cf8-a089-c3975f855094"
           (reference "C10") (unit 1)
         )
@@ -1428,13 +1446,16 @@
     (property "Datasheet" "~" (at 162.56 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "-" (at 162.56 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
           (reference "FID3") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "FID3") (unit 1)
         )
@@ -1463,6 +1484,9 @@
     (property "Vendor" "~" (at 192.405 104.775 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "-" (at 192.405 104.775 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 82496e8c-5a2a-4136-aac6-c128806b67e4))
     (instances
       (project "Power_and_board"
@@ -1475,7 +1499,7 @@
           (reference "TP8") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/ff2d7abe-3ed9-4cf8-a089-c3975f855094"
           (reference "TP6") (unit 1)
         )
@@ -1520,7 +1544,7 @@
           (reference "C15") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/ff2d7abe-3ed9-4cf8-a089-c3975f855094"
           (reference "C5") (unit 1)
         )
@@ -1565,7 +1589,7 @@
           (reference "C5") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/ff2d7abe-3ed9-4cf8-a089-c3975f855094"
           (reference "C9") (unit 1)
         )
@@ -1588,13 +1612,16 @@
     (property "Datasheet" "~" (at 149.86 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "-" (at 149.86 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
           (reference "FID1") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "FID1") (unit 1)
         )
@@ -1642,7 +1669,7 @@
           (reference "C15") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/ff2d7abe-3ed9-4cf8-a089-c3975f855094"
           (reference "C11") (unit 1)
         )
@@ -1677,7 +1704,7 @@
           (reference "#PWR033") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/ff2d7abe-3ed9-4cf8-a089-c3975f855094"
           (reference "#PWR029") (unit 1)
         )
@@ -1685,26 +1712,29 @@
     )
   )
 
-  (symbol (lib_name "Fuse-noLegs_1") (lib_id "projectlib:Fuse-noLegs") (at 99.06 100.965 90) (unit 1)
+  (symbol (lib_name "Fuse-noLegs_1") (lib_id "projectlib:Fuse-noLegs") (at 99.06 99.06 90) (unit 1)
     (in_bom yes) (on_board no) (dnp no)
     (uuid b8a1f697-27dd-44b5-af67-3b48a844fe8e)
-    (property "Reference" "F4" (at 97.79 103.505 90)
+    (property "Reference" "F4" (at 97.79 101.6 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "8A" (at 97.917 105.41 90)
+    (property "Value" "Fuse 8A" (at 97.917 103.505 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 99.06 102.743 90)
+    (property "Footprint" "" (at 99.06 100.838 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 99.06 100.965 0)
+    (property "Datasheet" "~" (at 99.06 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 99.06 103.505 90)
+    (property "Description" "" (at 99.06 101.6 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "-" (at 99.06 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/ff2d7abe-3ed9-4cf8-a089-c3975f855094"
           (reference "F4") (unit 1)
         )
@@ -1727,13 +1757,16 @@
     (property "Datasheet" "~" (at 149.86 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "-" (at 149.86 191.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
           (reference "FID2") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "FID2") (unit 1)
         )
@@ -1761,7 +1794,7 @@
     )
     (pin "1" (uuid d70788f8-362d-4584-9516-3a218df8012b))
     (instances
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "#PWR022") (unit 1)
         )
@@ -1809,7 +1842,7 @@
           (reference "C11") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/ff2d7abe-3ed9-4cf8-a089-c3975f855094"
           (reference "C17") (unit 1)
         )
@@ -1844,7 +1877,7 @@
           (reference "#PWR034") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/ff2d7abe-3ed9-4cf8-a089-c3975f855094"
           (reference "#PWR030") (unit 1)
         )
@@ -1873,13 +1906,16 @@
     (property "Sim.Enable" "0" (at 142.24 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "-" (at 142.24 170.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "iot_led_strip_pcb"
         (path "/745f5767-ebad-4719-b66e-073bc90db4bc/cfe13250-7fa5-4f24-964e-9463793dd38d"
           (reference "H2") (unit 1)
         )
       )
-      (project "dumb-led-driver"
+      (project "iot_pwm_leddriver"
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "H2") (unit 1)
         )
