@@ -4,6 +4,7 @@ fetchComponent.py
 # kicad 
 *-bak
 *-backups
+*_backups
 *-cache*
 *-bak*
 _autosave*

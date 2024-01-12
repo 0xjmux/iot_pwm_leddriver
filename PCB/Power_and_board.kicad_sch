@@ -940,9 +940,6 @@
         )
       )
       (project "iot_pwm_leddriver"
-        (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
-          (reference "H3") (unit 1)
-        )
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/ff2d7abe-3ed9-4cf8-a089-c3975f855094"
           (reference "H3") (unit 1)
         )
@@ -1137,9 +1134,6 @@
         )
       )
       (project "iot_pwm_leddriver"
-        (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
-          (reference "#PWR023") (unit 1)
-        )
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/ff2d7abe-3ed9-4cf8-a089-c3975f855094"
           (reference "#PWR011") (unit 1)
         )
@@ -1292,9 +1286,6 @@
         )
       )
       (project "iot_pwm_leddriver"
-        (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
-          (reference "H4") (unit 1)
-        )
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/ff2d7abe-3ed9-4cf8-a089-c3975f855094"
           (reference "H4") (unit 1)
         )
@@ -1330,9 +1321,6 @@
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/ff2d7abe-3ed9-4cf8-a089-c3975f855094"
           (reference "F2") (unit 1)
         )
-        (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
-          (reference "F2") (unit 1)
-        )
       )
     )
   )
@@ -1366,9 +1354,6 @@
         )
       )
       (project "iot_pwm_leddriver"
-        (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
-          (reference "H1") (unit 1)
-        )
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/ff2d7abe-3ed9-4cf8-a089-c3975f855094"
           (reference "H1") (unit 1)
         )
@@ -1446,9 +1431,6 @@
         )
       )
       (project "iot_pwm_leddriver"
-        (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
-          (reference "FID3") (unit 1)
-        )
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/ff2d7abe-3ed9-4cf8-a089-c3975f855094"
           (reference "FID3") (unit 1)
         )
@@ -1612,9 +1594,6 @@
         )
       )
       (project "iot_pwm_leddriver"
-        (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
-          (reference "FID1") (unit 1)
-        )
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/ff2d7abe-3ed9-4cf8-a089-c3975f855094"
           (reference "FID1") (unit 1)
         )
@@ -1757,9 +1736,6 @@
         )
       )
       (project "iot_pwm_leddriver"
-        (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
-          (reference "FID2") (unit 1)
-        )
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/ff2d7abe-3ed9-4cf8-a089-c3975f855094"
           (reference "FID2") (unit 1)
         )
@@ -1785,9 +1761,6 @@
     (pin "1" (uuid d70788f8-362d-4584-9516-3a218df8012b))
     (instances
       (project "iot_pwm_leddriver"
-        (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
-          (reference "#PWR022") (unit 1)
-        )
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/ff2d7abe-3ed9-4cf8-a089-c3975f855094"
           (reference "#PWR022") (unit 1)
         )
@@ -1906,9 +1879,6 @@
         )
       )
       (project "iot_pwm_leddriver"
-        (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
-          (reference "H2") (unit 1)
-        )
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/ff2d7abe-3ed9-4cf8-a089-c3975f855094"
           (reference "H2") (unit 1)
         )

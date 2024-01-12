@@ -1332,9 +1332,6 @@
         )
       )
       (project "iot_pwm_leddriver"
-        (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/ff2d7abe-3ed9-4cf8-a089-c3975f855094"
-          (reference "TP2") (unit 1)
-        )
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "TP7") (unit 1)
         )
@@ -2245,9 +2242,6 @@
         )
       )
       (project "iot_pwm_leddriver"
-        (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39/ff2d7abe-3ed9-4cf8-a089-c3975f855094"
-          (reference "TP1") (unit 1)
-        )
         (path "/b6358773-9a18-4eb2-bc1b-d38393a8df39"
           (reference "TP4") (unit 1)
         )
