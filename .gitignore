@@ -1,5 +1,6 @@
 iot_led_strip_pcb-backups/
 fetchComponent.py
+excluded/
 
 # kicad 
 *-bak
