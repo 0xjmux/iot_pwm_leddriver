@@ -1,4 +1,4 @@
-# IoT driver for Dumb 5050 RGB LED Strips
+# IoT driver for "Dumb" 5050 RGB LED Strips
 ESP8266-based LED Driver designed to work with WLED and cheap 12V barrel-jack power supplies for accent lighting around the home. 
 
 * ***See [Releases](https://github.com/0xjmux/iot_pwm_leddriver/releases) for all the necessary files and information to make your own!***
