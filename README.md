@@ -23,8 +23,8 @@ My v1.0 worked perfectly, so I'm going to leave it as-is. The only upgrades I'd 
 * Includes status and power LEDs and board overvoltage protection
 
 <p align="center">
-<img alt="" src="files/PCB_sitting_on_case.jpg" width="400" />
-<img alt="" src="files/PCB_in_case_bottom.png" width="400" />
+<img alt="" src="files/PCB_sitting_on_case.jpg" height="300" />
+<img alt="" src="files/PCB_in_case_bottom.png" height="300" />
 </p>
 
 * See [ABOUT.md](./ABOUT.md) for some information about design goals and the project. 
@@ -45,8 +45,8 @@ I also designed a 3D printable case, which can be found under [case/](case/). Th
 * The case uses M2x8mm screws to hold the two halves together, and is designed to be printed in PLA with 10% infill. 
 
 <p align="center">
-<img alt="" src="files/PCB_in_case.jpg" width="400" />
-<img alt="" src="files/case_v1.0_exploded_view.png" width="400" />
+<img alt="" src="files/PCB_in_case.jpg" height="300" />
+<img alt="" src="files/case_v1.0_exploded_view.png" height="300" />
 </p>
 
 ### v1.0 - First try works!
