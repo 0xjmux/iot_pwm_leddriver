@@ -17,3 +17,5 @@ When undertaking this project, I had the following goals in mind:
 
 #### Project TODO:
 * convert to ESP32-C3 - right after I ordered my first set of boards WLED 1.14 came out, and they're deprecating ESP8266 support. Whoops. 
+* fix coil whine from power mosfet drivers
+* 

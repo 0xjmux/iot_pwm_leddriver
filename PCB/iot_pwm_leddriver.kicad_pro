@@ -489,7 +489,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "iot_pwm_leddriver.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
