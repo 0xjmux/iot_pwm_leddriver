@@ -23,8 +23,8 @@ My v1.0 worked perfectly, so I'm going to leave it as-is. The only upgrades I'd 
 * Includes status and power LEDs and board overvoltage protection
 
 <p align="center">
-<img alt="" src="files/PCB_sitting_on_case.jpg" height="300" />
-<img alt="" src="files/PCB_in_case_bottom.png" height="300" />
+<img alt="" src="files/PCB_sitting_on_case.jpg" height="250" />
+<img alt="" src="files/PCB_in_case_bottom.png" height="250" />
 </p>
 
 * See [ABOUT.md](./ABOUT.md) for some information about design goals and the project. 
